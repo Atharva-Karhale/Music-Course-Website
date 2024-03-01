@@ -6,8 +6,8 @@ import CourseData from "@/data/music_courses.json"
 
 function page() {
   return (
-    <div className="min-h-screen bg-black py-12 pt-36">
-        <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white"> All Courses ({CourseData.courses.length}) </h1>
+    <div className="min-h-screen bg-black py-12 md:pt-36">
+        <h1 className="text-4xl md:text-7xl text-center font-sans font-bold mb-8 text-white"> All Courses ({CourseData.courses.length}) </h1>
         <div className=" flex flex-wrap justify-center"> 
             {CourseData.courses.map((course) => 
             (<CardContainer key={course.id} className="inter-var mx-2 ">
