@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className={inter.className}>
         <div className="relative w-full flex items-center justify-center ">
-          <NavBar/>
+          <NavBar key="navbar-home"/>
         </div>
         {children}
       </body>

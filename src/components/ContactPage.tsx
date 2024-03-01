@@ -8,7 +8,7 @@ function ContactPage() {
 
         <h1 className=" text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-7xl mt-40">Contact Us</h1>
         
-        <p className=" w-[40rem] text-center text-[#919191]">We're here to help with any questions about our courses, programs, or events. Reach out and let up know how we can assist you in your musical journey.</p>
+        <p className=" w-[40rem] text-center text-[#919191]">We`&apos;`re here to help with any questions about our courses, programs, or events. Reach out and let up know how we can assist you in your musical journey.</p>
         <form className=" flex flex-col mb-20">
             <input type="email" className="mt-8 bg-[#090909] px-8 py-3 text-teal-600 rounded-md w-[44rem] placeholder:text-[#666666]" placeholder="Your email address"/>
             
