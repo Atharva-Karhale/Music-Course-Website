@@ -3,11 +3,17 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import CourseData from "@/data/music_courses.json"
+import Link from "next/link";
 
 function page() {
   return (
     <div className="min-h-screen bg-black py-12 md:pt-36">
-        <h1 className="text-4xl md:text-7xl text-center font-sans font-bold mb-8 text-white"> All Courses ({CourseData.courses.length}) </h1>
+            <div className="rounded px-2 py-2 text-[#e5e5e5] font-bold underline underline-offset-2 flex md:hidden bg-[#141414] w-full justify-center">
+              <Link href={'/'} className=" text-[#9d9d9d] ml-2 p-2 rounded-lg">Home</Link>
+              <div className="  p-2 text-[#d2d2d2]">  |  </div>
+              <Link href={'/contact'} className="text-[#9d9d9d]  mr-2  p-2 rounded-lg">Contact Us</Link>
+            </div>
+        <h1 className="text-4xl md:text-7xl text-center font-sans font-bold mb-8 text-white mt-5 md:mt-0"> All Courses ({CourseData.courses.length}) </h1>
         <div className=" flex flex-wrap justify-center"> 
             {CourseData.courses.map((course) => 
             (<CardContainer key={course.id} className="inter-var mx-2 ">

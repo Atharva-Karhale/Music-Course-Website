@@ -20,6 +20,7 @@ function ContactPage() {
             <input type="email" className="mt-8 bg-[#090909] px-8 py-3 text-teal-600 rounded-md md:w-[44rem] max-w-[44rem] placeholder:text-[#666666]" placeholder="Your email address"/>
             
             <textarea rows={11} className="mt-8 bg-[#090909] px-8 py-3 text-teal-600 rounded-md max-w-[44rem] placeholder:text-[#666666]" placeholder="Your message"/>
+            <button type="submit" className=" font-bold rounded-lg mt-6 md:mt-4 max-w-[44rem] bg-teal-600 p-2 "> Submit </button>
         </form>
         <Meteors number={30} />
 
