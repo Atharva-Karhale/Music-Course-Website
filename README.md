@@ -1,7 +1,9 @@
 #  Music Course Selling Website with modern responsive and reactive UI (everything reacts to mouse mouse moves)
 
 #Use Tech-
+
 -Next JS + Typescript
+
 -Acertinity UI Liberary
 
 
