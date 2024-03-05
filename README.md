@@ -1,6 +1,7 @@
 #  Music Course Selling Website with modern responsive and reactive UI
 (everything reacts to mouse moves)
 
+
 #Use Tech-
 
 -Next JS + Typescript
